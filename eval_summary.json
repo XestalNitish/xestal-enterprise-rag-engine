@@ -1,0 +1,61 @@
+{
+  "total": 53,
+  "overall_pass": "23/53 (43.4%)",
+  "answerable_accuracy": "18/48 (37.5%)",
+  "retrieval_hit_rate": "46/48 (95.8%)",
+  "false_refusal_rate": "13/48 (27.1%)",
+  "out_of_scope_handled": "5/5 (100.0%)",
+  "hallucination_rate_oos": "0/5 (0.0%)",
+  "latency_avg_s": 30.51,
+  "latency_median_s": 30.81,
+  "latency_p95_s": 44.08,
+  "by_type": {
+    "concept": "7/12 (58.3%)",
+    "factoid": "4/6 (66.7%)",
+    "formula": "2/6 (33.3%)",
+    "numeric": "3/19 (15.8%)",
+    "reasoning": "2/3 (66.7%)",
+    "table": "0/2 (0.0%)"
+  },
+  "by_difficulty": {
+    "easy": "4/10 (40.0%)",
+    "hard": "4/13 (30.8%)",
+    "medium": "10/25 (40.0%)"
+  },
+  "failure_causes": {
+    "generation": 28,
+    "retrieval": 2
+  },
+  "failed_ids": [
+    "Q04",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q17",
+    "Q18",
+    "Q25",
+    "Q26",
+    "Q27",
+    "Q28",
+    "Q29",
+    "Q30",
+    "Q31",
+    "Q32",
+    "Q33",
+    "Q34",
+    "Q35",
+    "Q36",
+    "Q37",
+    "Q39",
+    "Q40",
+    "Q44",
+    "Q45",
+    "Q46",
+    "Q47",
+    "Q48"
+  ]
+}

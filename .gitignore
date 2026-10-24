@@ -1,0 +1,35 @@
+# Python byte code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Large GGUF Models & Weight Directories
+models/
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+# Local DB Stores & Cache
+test_db_store/
+workspace_docs/
+.chroma/
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
