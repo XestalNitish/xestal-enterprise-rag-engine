@@ -116,29 +116,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-### 4. Launch Streamlit UI
-```bash
-streamlit run app.py
-```
-
-### 5. Run Automated Evaluation Test Suite
-```bash
-python eval_rag.py --workspace ws1 --module retrival -v
-```
-
----
-
-## ☁️ Deploying to Streamlit Cloud
-
-1. Push this repository to your GitHub account ([`github.com/XestalNitish`](https://github.com/XestalNitish)).
-2. Go to [share.streamlit.io](https://share.streamlit.io/) and click **"New app"**.
-3. Select your repository and set Main file path to `app.py`.
-4. In **Advanced Settings $\rightarrow$ Secrets**, add your free Groq API key:
-   ```toml
-   GROQ_API_KEY = "gsk_..."
-   ```
-5. Click **"Deploy"** — your app is live on the internet!
-
 ---
 
 ## 👨‍💻 Developer & Portfolio Ecosystem
