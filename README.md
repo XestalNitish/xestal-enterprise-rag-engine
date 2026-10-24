@@ -21,14 +21,14 @@
 
 This project implements an **enterprise-grade Hybrid Retrieval-Augmented Generation (RAG) system** engineered for high-precision technical question-answering on pre-loaded scientific research papers (`arXiv:2610.30074v1`) as well as **user-uploaded documents (PDF, Word, Text, Web URLs, YouTube)**. It supports **multi-provider cloud execution (Groq, Gemini, OpenAI)** for instantaneous cloud hosting on Streamlit Cloud, alongside **low-level offline CPU inference** via GGUF and `llama-server`.
 
-| Metric | Baseline (Pre-Audit) | Optimized Engine | Impact / Verification |
-| :--- | :---: | :---: | :--- |
-| **Retrieval Hit Rate** | `0.0%` (0/48) | **`95.8%` (46/48)** | **+95.8% Evidence Hit Rate** |
-| **Out-of-Scope Safety** | `0.0%` | **`100.0%` (5/5)** | **Zero Hallucinations** |
-| **Query Latency (CPU)** | `>280s` (Timeouts) | **`30.51s`** | **~9x Speedup via Flash Attention** |
-| **Cloud Latency (Groq)** | N/A | **`1.2s - 2.5s`** | **Instantaneous Web Responses** |
-| **Overall Pass Rate** | `0.0%` (0/53) | **`43.4%` (23/53)** | **Rigorous 53-Question Evaluation** |
-| **Execution Errors** | High (Crashes / Hangs) | **`0 Errors`** | **100% Production Stability** |
+| Metric | Optimized Engine | Impact / Verification |
+| :---  | :---: | :--- |
+| **Retrieval Hit Rate** | **`95.8%` (46/48)** | **+95.8% Evidence Hit Rate** |
+| **Out-of-Scope Safety** | **`100.0%` (5/5)** | **Zero Hallucinations** |
+| **Query Latency (CPU)** | **`30.51s`** | **~9x Speedup via Flash Attention** |
+| **Cloud Latency (Groq)** | **`1.2s - 2.5s`** | **Instantaneous Web Responses** |
+| **Overall Pass Rate** | **`43.4%` (23/53)** | **Rigorous 53-Question Evaluation** |
+| **Execution Errors** | **`0 Errors`** | **100% Production Stability** |
 
 ---
 
