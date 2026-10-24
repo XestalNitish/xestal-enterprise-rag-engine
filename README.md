@@ -94,8 +94,7 @@ The application features a modern **Claymorphism (tactile 3D soft clay design)**
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/XestalNitish/project3.git
-cd project3
+[git clone https://github.com/XestalNitish/project3.git](https://github.com/XestalNitish/xestal-enterprise-rag-engine.git)
 ```
 
 ### 2. Create Virtual Environment & Install Dependencies
